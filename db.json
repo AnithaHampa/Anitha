@@ -1,0 +1,152 @@
+{
+  "Students": [
+    {
+      "username": "john",
+      "password": "ani105",
+      "role": "faculty"
+    },
+    {
+      "username": "Anitha",
+      "password": "Anitha105",
+      "role": "student"
+    },
+    {
+      "username": "Reha",
+      "password": "Reha14",
+      "role": "faculty"
+    },
+    {
+      "username": "Nikki",
+      "password": "Nikki08",
+      "role": "student"
+    },
+    {
+      "username": "Vinee",
+      "password": "Vinee12",
+      "role": "student"
+    }
+  ],
+  "Faculty": [
+    {
+      "name": "john",
+      "ClassTeacher": "III",
+      "subject": "Maths",
+      "designation": "SeniorFaculty"
+    },
+    {
+      "name": "Reha",
+      "ClassTeacher": "V",
+      "subject": "Physics",
+      "designation": "JuniorFaculty"
+    },
+    {
+      "name": "James",
+      "ClassTeacher": "I",
+      "subject": "Chemistry",
+      "designation": "SeniorFaculty"
+    },
+    {
+      "name": "Max",
+      "ClassTeacher": "II",
+      "subject": "English",
+      "designation": "SeniorFaculty"
+    },
+    {
+      "name": "Honey",
+      "ClassTeacher": "IV",
+      "subject": "Telugu",
+      "designation": "JuniorFaculty"
+    },
+    {
+      "name": "Hampa",
+      "subject": "Hindhi",
+      "designation": "JuniorFaculty",
+      "id": 6
+    }
+  ],
+  "facultyinfo": [
+    {
+      "name": "AnithaReddy",
+      "class": "IV",
+      "subjects": "Telugu,Hindhi,English,Maths,Physics,Chemistry,Social",
+      "marks": 555,
+      "grade": "A",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Koushik",
+      "class": "V",
+      "subjects": "Telugu,Hindhi,English,Maths,Physics,Chemistry,Social",
+      "marks": 540,
+      "grade": "A"
+    },
+    {
+      "id": 3,
+      "name": "Sai",
+      "class": "III",
+      "subjects": "Telugu,Hindhi,English,Maths,Physics,Chemistry,Social",
+      "marks": 555,
+      "grade": "A"
+    },
+    {
+      "id": 4,
+      "name": "Karthik",
+      "class": "VI",
+      "subjects": "Telugu,Hindhi,English,Maths,Physics,Chemistry,Social",
+      "marks": 400,
+      "grade": "c"
+    },
+    {
+      "name": "Ravi",
+      "class": "VII",
+      "subjects": "Telugu,Hindhi,English,Maths,Physics,Chemistry,Socials",
+      "marks": "520",
+      "grade": "A+",
+      "id": 6
+    },
+    {
+      "name": "Chaitra",
+      "class": "III",
+      "subjects": "Telugu,Hindhi,English,Maths,Physics,Chemistry,Socials",
+      "id": 7
+    }
+  ],
+  "dayrepot": [
+    {
+      "id": 1,
+      "name": "Honey",
+      "class": "V",
+      "goodattendence": "yes",
+      "uptodateassignments": "Yes",
+      "assmentnotcompletedcomment": ""
+    },
+    {
+      "id": 2,
+      "name": "Hon",
+      "class": "V",
+      "goodattendence": "yes",
+      "uptodateassignments": "no",
+      "assmentnotcompletedcomment": "not feeling well"
+    },
+    {
+      "name": "Priya",
+      "class": "VIII",
+      "goodattendence": "bad",
+      "uptodateassignments": "no",
+      "assmentnotcompletedcomment": "Bad Attendence",
+      "id": 6
+    }
+  ],
+ 
+    "TimeTable":[
+      {"day":"Monday","firsthour":"Maths","secondhour":"English","thirdhour":"Lunch","fourthhour":"science","fifthhour":"Hindi","sixthhour":"Drawing"},
+      {"day":"TuesDay","firsthour":"English","secondhour":"Telugu","thirdhour":"Drawing","fourthhour":"Lunch","fifthhour":"Maths","sixthhour":"Science"},
+      {"day":"WednesDay","firsthour":"Maths","secondhour":"English","thirdhour":"Lunch","fourthhour":"science","fifthhour":"Telugu","sixthhour":"Science"},
+      {"day":"ThursDay","firsthour":"Drawing","secondhour":"Social","thirdhour":"Lunch","fourthhour":"Telugu","fifthhour":"Science","sixthhour":"drawing"},
+      {"day":"FriDay","firsthour":"Hindi","secondhour":"Maths","thirdhour":"Telugu","fourthhour":"Lunch","fifthhour":"Hindi","sixthhour":"drawing"},
+      {"day":"SaturDay","firsthour":"Science","secondhour":"Telugu","thirdhour":"Lunch","fourthhour":"science","fifthhour":"Hindi","sixthhour":"drawing"}
+    ]
+  
+    
+}
