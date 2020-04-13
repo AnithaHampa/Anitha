@@ -1,0 +1,49 @@
+<div class="container-fluid" >
+  <div class="row">
+    <h5 class="title-color">
+      <span id="lblcollege" class="college">Dream World School</span>
+    </h5>
+  </div>
+</div>
+<nav class="navbar navbar-expand-md text-black-50 justify-content-between py-0"  style="font-size: smaller; background-color: #E0F2F1">
+  <div class="collapse navbar-collapse" id="collapsibleNavBar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link title-color home" routerLink="home" ></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle title-color" href="#" id="navbardrop" data-toggle="dropdown">Dream World School
+        </a>
+        
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLink="stu">Admissions</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="ptm">PTM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="con">Contact Us</a>
+      </li>
+      <div class="navbar-nav" style="text-align: left">
+      
+          <a class="nav-item nav-link" routerLink="/" (click)="logout()">Logout</a>
+      </div>
+    </ul>
+  </div>
+</nav>
+
+
+<router-outlet></router-outlet>
+<footer aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="http://localhost:4200/stu">2</a></li>
+    <li class="page-item"><a class="page-link" href="http://localhost:4200/ptm">3</a></li>
+    <li class="page-item"><a class="page-link" href="http://localhost:4200/con">4</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</footer>
+
+
